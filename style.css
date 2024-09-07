@@ -44,18 +44,25 @@
 }
 .nav-search{
     display: flex;
-    border: 1px solid rgb(238, 231, 232);
+    border: 2px solid black;
     width: 620px;
     height: 40px;
     justify-content: space-evenly;
     border-radius: 4px;
 }
+
+#option{
+    border: none;
+    font-size: 0.80rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: gray;
+}
+
 .seach-select{
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
     border: none;
 
 }
